@@ -1,0 +1,20 @@
+const container = document.createElement('div');
+const redP = document.createElement('p');
+redP.textContent = "Hey I'm red!";
+redP.style.cssText = 'color: red;';
+container.appendChild(redP);
+document.body.appendChild(container);
+
+const blerh3 = document.createElement('h3');
+blerh3.textContent = "I'm a blue h3!";
+blerh3.style.cssText = 'color: blue;';
+container.appendChild(blerh3);
+const divContainer = document.createElement('div');
+divContainer.style.cssText = 'border: 2px solid black; background-color: pink; padding: 10px; margin-top: 10px;';
+const divH1 = document.createElement('h1');
+divH1.textContent = "I'm in a div";
+const divP = document.createElement('p');
+divP.textContent = "ME TOO!";
+divContainer.appendChild(divH1);
+divContainer.appendChild(divP);
+container.appendChild(divContainer);
